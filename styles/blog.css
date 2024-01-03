@@ -38,6 +38,7 @@ a:hover{
 }
 
 .parent{
+  margin-bottom: 20px;
   text-align: center;
 }
 .child{
@@ -47,8 +48,9 @@ a:hover{
 }
 
 img{
-  width: 200px;
-  height: 150px;
+  margin: 10px 15px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
 }
