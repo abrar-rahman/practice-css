@@ -44,8 +44,8 @@ h2:hover{
   text-decoration: underline;
 }
 .photo{
-  position: relative;
-  display: inline;
+  position: auto;
+  display: inline-block;
   max-height: 200px;
-  width: 150px;
+  width: 30%;
 }
