@@ -76,8 +76,12 @@ h3:hover{
   text-decoration: underline;
 }
 .elden{
-  margin-top: 10px;
+  
 }
 
+#main_menu{
+  font-weight: bolder;
+  margin:auto 60px;
+}
 
 
