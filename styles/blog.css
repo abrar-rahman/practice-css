@@ -1,12 +1,51 @@
+*{
+  margin: 0;
+}
+body{
+  background-color: #273c75;
+}
+ul{
+  margin-top: 20px;
+  text-align: center;
+  list-style: none;
+}
+ul li a{
+  display: inline-block;
+  margin: 15px 15px;
+  color: white;
+}
+ul li a:hover{
+  background-color: beige;
+  color: chocolate;
+}
 div{
-  background-color: tomato;
+  margin: 20px;
+  background-color: #487eb0;
   padding: 10px;
 }
+#bb{
+  background-color: ;
+}
+
 .childp{
   background-color: black;
   color: beige;
+  display: inline;
 }
-#parent{
-  display: inline-block;
-  box-shadow: 10px 10px 10px 15px;
+.childp:hover{
+  background-color: blanchedalmond;
+  color: #e84118;
+}
+h2{
+  position: relative;
+  text-align: center;
+}
+h2:hover{
+  text-decoration: underline;
+}
+.photo{
+  position: relative;
+  display: inline;
+  max-height: 200px;
+  width: 150px;
 }
