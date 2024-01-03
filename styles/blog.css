@@ -1,8 +1,19 @@
 *{
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+header h1{
+  
+  display: inline;
+  text-align: center;
+  background-color: #474787;
 }
 body{
   background-color: #273c75;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 1.5em;
 }
 ul{
   margin-top: 20px;
@@ -13,6 +24,7 @@ ul li a{
   display: inline-block;
   margin: 15px 15px;
   color: white;
+  text-decoration: none;
 }
 ul li a:hover{
   background-color: beige;
@@ -46,6 +58,6 @@ h2:hover{
 .photo{
   position: auto;
   display: inline-block;
-  max-height: 200px;
+  max-height: 500px;
   width: 30%;
 }
