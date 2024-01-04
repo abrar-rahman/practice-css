@@ -91,5 +91,15 @@ h3:hover{
   font-weight: bold;
   margin:auto 60px;
 }
+footer{
+  margin-top: 15px;
+
+  background: #AED2FF;
+  padding: 15px;
+  text-align: center;
+}
+footer p{
+  font-size: 15px;
+}
 
 
